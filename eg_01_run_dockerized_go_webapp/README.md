@@ -15,12 +15,15 @@ git clone https://github.com/Abanu-H/docker-go-samples.git
 ```bash
 cd docker-go-samples/eg_01_run_dockerized_go_webapp
 ```
-3. **Build the Docker image -Builds a Docker image from the Dockerfile in the current directory.**
-   **-t** assigns a name (or "tag") to the image
-   **.** specifies the build context (current directory).
+3. **Build the Docker image - Builds a Docker image from the Dockerfile in the current directory.**
+   - **-t** assigns a name (or "tag") to the image
+   - **.** specifies the build context (current directory).
 ```bash
 docker build -t run_dockerized_go_webapp .
 ```
+4. **Run the container**
+   - **-p** 3000:3000 maps port 3000 on your machine to port 3000 in the container.
+   - **-d** runs the container in detached mode (in the background).
 4. **Run the container**
   **-p** 3000:3000 maps port 3000 on your machine to port 3000 in the container.
   **-d** runs the container in detached mode (in the background).
