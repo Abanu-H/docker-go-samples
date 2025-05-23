@@ -24,9 +24,6 @@ docker build -t run_dockerized_go_webapp .
 4. **Run the container**
    - **-p** 3000:3000 maps port 3000 on your machine to port 3000 in the container.
    - **-d** runs the container in detached mode (in the background).
-4. **Run the container**
-  **-p** 3000:3000 maps port 3000 on your machine to port 3000 in the container.
-  **-d** runs the container in detached mode (in the background).
 ```bash
 docker run -p 3000:3000 -d run_dockerized_go_webapp
 ```
