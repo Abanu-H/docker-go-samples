@@ -1,6 +1,7 @@
-# Docker Basics – Go Web API Example
-This repository contains a simple Go API to demonstrate containerization using Docker.  
-The main goal is to learn how Docker works, focusing on building efficient container images.
+# Docker Basics – Go Web API (Multi-Stage Build)
+This repository contains a simple Go API to demonstrate how to build and run containerized applications using Docker.
+The main goal is to understand how Docker works, with a focus on creating efficient container images using multi-stage builds.
+In this example, we build the Go application into a binary, making it suitable for deployment across different isolated environments.
 
 ## What this project does
 - Provides a minimal Go API with one health check endpoint (`/healtz`)  
@@ -15,7 +16,7 @@ git clone https://github.com/Abanu-H/docker-go-samples.git
 ```
 2. **Navigate to the exercise directory**
 ```bash
-cd docker-go-samples/eg_01_build_dockerized_go_web_api
+cd docker-go-samples/eg_02_build_dockerized_go_web_api
 ```
 3. **Build the Docker image**
 ```bash
