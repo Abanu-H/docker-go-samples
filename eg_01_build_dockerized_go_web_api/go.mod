@@ -1,4 +1,4 @@
-module dockerized_go_web_api
+module build_dockerized_go_web_api
 
 go 1.21.7
 

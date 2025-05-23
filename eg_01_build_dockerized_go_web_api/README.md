@@ -15,15 +15,15 @@ git clone https://github.com/Abanu-H/docker-go-samples.git
 ```
 2. **Navigate to the exercise directory**
 ```bash
-cd docker-go-samples/eg_01_dockerized_go_web_api
+cd docker-go-samples/eg_01_build_dockerized_go_web_api
 ```
 3. **Build the Docker image**
 ```bash
-docker build -t dockerized_go_web_api .
+docker build -t build_dockerized_go_web_api .
 ```
 4. **Run the container**
 ```bash
-docker run -p 3000:3000 dockerized_go_web_api
+docker run -p 3000:3000 build_dockerized_go_web_api
 ```
 Server starts at http://localhost:3000.
 
