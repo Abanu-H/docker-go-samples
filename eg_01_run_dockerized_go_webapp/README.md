@@ -16,15 +16,15 @@ git clone https://github.com/Abanu-H/docker-go-samples.git
 cd docker-go-samples/eg_01_run_dockerized_go_webapp
 ```
 3. **Build the Docker image -Builds a Docker image from the Dockerfile in the current directory.**
-### -t assigns a name (or "tag") to the image
-### .specifies the build context (current directory).
+***-t assigns a name (or "tag") to the image**
+***.specifies the build context (current directory).**
 ```bash
 docker build -t run_dockerized_go_webapp .
 ```
 4. **Run the container**
-### -p 3000:3000 maps port 3000 on your machine to port 3000 in the container.
-### -d runs the container in detached mode (in the background).
-### run_dockerized_go_webapp is the name of the image to run.
+***-p 3000:3000 maps port 3000 on your machine to port 3000 in the container.**
+***-d runs the container in detached mode (in the background).**
+***run_dockerized_go_webapp is the name of the image to run.**
 ```bash
 docker run -p 3000:3000 -d run_dockerized_go_webapp
 ```
@@ -35,7 +35,7 @@ Server starts at http://localhost:3000.
 ```bash
 curl http://localhost:3000
 ```
-### Home Page:
+***Home Page:**
 ![Screenshot Get Api](api_response/get_goal_response.png)
-### Post API Response:
+***Post API Response:**
 ![Screenshot Post Api](api_response/post_goal_response.png)
