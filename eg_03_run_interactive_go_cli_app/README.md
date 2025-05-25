@@ -31,7 +31,7 @@ docker run -it --rm --name bmi-calculator-container bmi-calculator
 ```
 
 5. **Test the app**
-The app calculate and provide the Body Mass Index based on the height and weight inputs.
+The app calculate and provide the body mass index based on the height and weight inputs.
 
 
 ![BMI Calculator Output (CLI)](bmi-app-terminal-output.png)
